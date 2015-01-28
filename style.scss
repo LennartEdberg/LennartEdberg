@@ -238,7 +238,8 @@ body {
     
 }
 
-@media (max-width: 1480px) {
+@media (min-width: 1000px) and (max-width: 1400px) 
+{
     .Skillspage
     {
         font-size: 14px;
