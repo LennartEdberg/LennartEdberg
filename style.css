@@ -683,8 +683,9 @@ body {
     width: 50%; } }
 @media (max-width: 515px) {
   .BG .Front-Text {
+    font-size: 16px;
     text-align: center;
-    padding-top: 205px; }
+    padding-top: 170px; }
   .BG a {
     text-decoration: none;
     color: #e2e2e2;
