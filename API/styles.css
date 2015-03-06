@@ -1,0 +1,185 @@
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  }
+.container
+{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+ol, ul {
+  list-style: none;
+}
+
+body
+{
+    background-image: url(InstagramDBG.png);
+    color: white;
+    font-family:"sans-serif", Helvetica, Arial, Helvetica Neue;
+}
+
+h1{
+    text-align: center;
+font-size: 1.8em;
+}
+
+
+a.button  {
+    clear: both;
+    
+    -webkit-border-radius:3px;
+       -moz-border-radius:3px;
+            border-radius:3px;
+            
+    -webkit-box-shadow:0 4px 5px rgba(0,0,0,.3);
+       -moz-box-shadow:0 4px 5px rgba(0,0,0,.3);
+            box-shadow:0 4px 5px rgba(0,0,0,.3);
+            
+    display: inline-block !important;
+    font: 20px sans-serif, Helvetica;
+    font-weight: bold;
+    height: 36px;
+    margin: 0 0 10px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255,255,255,.35);
+    width: 125px; 
+    text-align: center;
+
+    }
+a.orange {
+    background: #ff6233;
+    background: -webkit-gradient(linear, 0 0, 0 0, from(#ff4848), to(#ff5252));
+    background: -moz-linear-gradient(#F98CB6, #F75F94);
+    background: linear-gradient(#ff6436, #f76c43);
+    border-top: 1px solid #ff8e6d;
+    border-bottom: 1px solid #ff6436;
+    border-left: 1px solid #ff6436;
+    border-right: 1px solid #ff6436;
+    color: rgba(247, 207, 221, 0.9);
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0, 0, 0, 0.4);
+-moz-box-shadow:    0px 0px 13px 4px rgba(0, 0, 0, 0.4);
+box-shadow:         0px 0px 13px 4px rgba(0, 0, 0, 0.4);
+    
+    }
+    
+a.active {
+    background: #030303;
+    background: -webkit-gradient(linear, 0 0, 0 0, from(#F75F94), to(#F98CB6));
+    background: -moz-linear-gradient(#F75F94, #F98CB6);
+    background: linear-gradient(#101010, #191919);
+    border: 1px solid #ffffff;
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0, 0, 0, 0.4);
+-moz-box-shadow:    0px 0px 13px 4px rgba(0, 0, 0, 0.4);
+box-shadow:         0px 0px 13px 4px rgba(0, 0, 0, 0.4);
+}
+
+a:hover
+{
+        background: #030303;
+    background: -webkit-gradient(linear, 0 0, 0 0, from(#F75F94), to(#F98CB6));
+    background: -moz-linear-gradient(#F75F94, #F98CB6);
+    background: linear-gradient(#101010, #191919);
+    border: 1px solid #ffffff;
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0, 0, 0, 0.4);
+-moz-box-shadow:    0px 0px 13px 4px rgba(0, 0, 0, 0.4);
+box-shadow:         0px 0px 13px 4px rgba(0, 0, 0, 0.4);
+}
+
+#username
+{
+width:375px;
+display:block;
+border: 1px solid #cb3d13;
+height: 30px;
+font-size: 15px;
+font-weight: bold;
+background-color: #ff6233;
+-webkit-box-shadow: 0px 0px 13px 4px rgba(0, 0, 0, 0.6);
+-moz-box-shadow:    0px 0px 13px 4px rgba(0, 0, 0, 0.6);
+box-shadow:         0px 0px 13px 4px rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    text-align: center;
+    color: #ffe3da;
+    transition: 0.4s;
+}
+
+textarea:focus, input:focus
+{
+    outline: 0;
+}
+
+
+
+#username:focus
+{
+    border: 1px solid #ffe3da;
+    background-color: #ff6233;
+    transition: 0.4s;
+    color: #ffe3da;
+}
+
+#username:active
+{
+    border: 1px solid #ffe3da;
+    background-color: #ff6233;
+    transition: 0.4s;
+    color: #ffe3da;
+    
+}
+
+
+.flex-center
+{
+    display:flex;
+    justify-content: center;
+}
+
+.button-margin
+{
+    margin-top: 20px;
+}
+
+#PictureBtn
+{
+    margin-right: 20px;
+}
+
+::-webkit-input-placeholder {
+   color: #ffe3da;
+}
+
+ul li
+{
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0px 0px 13px 4px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow:    0px 0px 13px 4px rgba(0, 0, 0, 0.8);
+    box-shadow:         0px 0px 13px 4px rgba(0, 0, 0, 0.8);
+    border: 3px solid #151312;
+}
+
+.center-text
+{
+    text-align: center;
+}
+
+.orangetxt
+{
+    color: #ff6233;
+}
+
+.dispnone
+{
+    display: none;
+}
