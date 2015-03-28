@@ -9,17 +9,21 @@
 <body>
 <h1>Lightsout <span id="beta-text">BETA</span></h1>
     <h2>By Lennart Edberg</h2>
-<div id="wrapper">
-<div id="Infobox">
+<div class="section group center">
+	<div class="col span_4_of_10 center">
+	<div id="Infobox">
 <h1 id="Infoh1">Info</h1>
 <p id="infoText">The game consists of a 5 by 5 grid of blocks. When the game starts, a random number or a stored pattern of these blocks are switched on. Pressing any of the blocks will toggle it and the four adjacent blocks. The goal of the puzzle is to switch all the blocks off, preferably in as few button presses as possible.
 <br>
 <br>
 If a block is switched on(black), it must be toggled an odd number of times to be turned off. If a block is off, it must be toggled an even number of times for it to remain off. Several conclusion are used for the game's strategy. Firstly, the order in which the blocks are pressed does not matter, as the result will be the same. Secondly, in a minimal solution, each block needs to be pressed no more than once, because pressing a block twice is equivalent to not pressing it at all.</p>
     </div>
+	</div>
+	<div class="col span_6_of_10">
   <table id="myTable">
   </table>
+	</div>
 </div>
-  <script src="lightsout.js"></script>
+<script src="lightsout.js"></script>
 </body>
 </html>
