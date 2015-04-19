@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="BG">
+	<div id="home" class="BG">
         <div class="Front-Text">
         <div class="grid-container">
         <div class="grid-12">
@@ -27,16 +27,16 @@
         </div>
         </div>
         </div>
-        <header class="main-header hidden-mobile">
+        <header class="hidden-mobile main-header">
+
         <div class="grid-container">
         <div class="grid-12">
-            <ul>
-                <li><a href="#">Home</a></li>
+            <ul id="ulItemsDesktop">
+                <li><a href="#home">Home</a></li>
                 <li><a href="#a1">About</a></li>
                 <li><a href="#a2">Skills</a></li>
                 <li><a href="#a3">Projects</a></li>
                 <li><a href="#a4">Contact</a></li>
-
                 </ul>
         </div>
         </div>
@@ -44,8 +44,8 @@
         <header class="main-header hidden-desktop">
         <div class="grid-container">
         <div class="grid-12">
-            <ul>
-                <li><a href="#">Home</a></li>
+            <ul id="ulItemsMobile">
+                <li><a href="#home">Home</a></li>
                 <li><a href="#a1">About</a></li>
                 <li><a href="#a2">Skills</a></li>
                 <li><a href="#a3">Projects</a></li>
@@ -78,7 +78,7 @@
 </div>
         </div>
     </div>
-    <div class="BG"></div>
+    <div class="BG BG1"></div>
     <div class="scrolling-bg bg-color-1 Skillspage">
         
     	<div class="grid-container">
@@ -86,27 +86,28 @@
         <h1><a id="a2">Skills</a></h1>
             </div>
              </div>
-        <div class="SText"></div>
+        <div class="SText">
         <div class="grid-container">
             <div class="grid-3">
-            <img src="javaIcon.png" alt="Java Icon">
-			<h2>Javascript</h2>
+            <img src="javaIcon2.png" alt="Java Icon">
+			<h2 class="hidden-desktop">Javascript</h2>
 		</div>
 		<div class="grid-3">
-            <img src="htmlIcon.png" alt="HTML Icon">
-			<h2>HTML</h2>
+            <img src="htmlIcon2.png" alt="HTML Icon">
+			<h2 class="hidden-desktop">HTML</h2>
 		</div>
 		<div class="grid-3">
-            <img src="cssIcon.png" alt="CSS Icon">
-			<h2>CSS</h2>
+            <img src="cssIcon2.png" alt="CSS Icon">
+			<h2 class="hidden-desktop">CSS</h2>
 		</div>
         <div class="grid-3">
-            <img src="phpIcon.png" alt="PHP Icon">
-			<h2>PHP</h2>
+            <img src="phpIcon2.png" alt="PHP Icon">
+			<h2 class="hidden-desktop">PHP</h2>
 		</div>
         </div>
         </div>
-    <div class="BG"></div>
+        </div>
+    <div class="BG BG2"></div>
         <div class="scrolling-bg bg-color-1 Projectspage">
             
     <div class="grid-container">
@@ -115,49 +116,29 @@
         </div>
         </div>
     <div class="PText">
-	<div class="grid-container">
-		<div class="grid-2">
-			<img src="Placeholder.png" alt="Placeholder image">
+	<div class="grid-container center">
+		<div class="grid-6">
+			<a href="http://lennartedberg.github.io/Lightsout/#/"><img src="LightsoutIMG.png" alt="Lightsout Link"></a>
 </div>
-		<div class="grid-2">
-			<img src="Placeholder.png" alt="Placeholder image">
-</div>
-		<div class="grid-2">
-			<img src="Placeholder.png" alt="Placeholder image">
-        </div>
-            <div class="grid-2">
-			<img src="Placeholder.png" alt="Placeholder image">
-            </div>
-                
-            <div class="grid-2">
-			<img src="Placeholder.png" alt="Placeholder image">
-                </div>
-            <div class="grid-2">
-			<img src="Placeholder.png" alt="Placeholder image">
+		<div class="grid-6">
+			<a href="http://lennartedberg.github.io/API/#/"><img src="InstagramIMG.png" alt="Instagram API Link"></a>
 </div>
         </div>
         </div>
     </div>
-<div class="BG"></div>
+<div class="BG BG3">
+  </div>
 <div class="scrolling-bg bg-color-1 Aboutpage">
 <div class="grid-container">
 <div class="grid-12">
-                <form action="index.html" method="post">
+            <div class="form">
         <h1><a id="a4">Contact me</a></h1>
-        <fieldset>
-        <legend><span class="number">1</span>Fill in these please</legend>
-        <label for="namn">Name</label>
-        <input type="text" id="namn" name="user_name" placeholder="Name">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="user_email" placeholder="Email">
-        <label for="info">Comment</label>
-        <textarea id="info" name="user_info"></textarea>
-        <button type="submit">Send</button>
-        </fieldset>
-          </form>
+        <a href="mailto:LennartEdb@hotmail.se"><button class="buttonForm">LennartEdb@hotmail.se</button></a>
+          </div>
             </div>
         </div>
         </div>
-  
+<script src="jquery-1.11.2.min.js"></script>
+<script src="Smooth_scroll.js"></script>
 </body>
 </html>

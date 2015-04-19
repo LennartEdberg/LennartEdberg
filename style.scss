@@ -3,14 +3,14 @@
 @import "grid";
 
 #a1{
-padding-top: 100px;
+padding-top: 160px;
 }
 #a2{
-padding-top: 100px;
+padding-top: 160px;
 }
 
 #a3{
-padding-top: 100px;
+padding-top: 160px;
 }
 
 
@@ -20,14 +20,14 @@ padding-top: 100px;
 }
 
 .orange-text{
-    color:#b15932;
+    color:#daa04f;
 }
     ::-webkit-scrollbar {
     width: 0.5em;
 }
  
 ::-webkit-scrollbar-thumb {
-  background-color: #333333;
+  background-color: #dddddd;
     border-radius: 5px;
 }
 html{
@@ -39,45 +39,23 @@ body {
 	height: 100%;
 
     font-family: 'Droid Sans', sans-serif;
-    color: #121012;
-    background-color: #121012;
+    color: #111011;
+    background-color: #111011;
     font-size: 32px;
     
 }
 
+.center
+{
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
 /* Main Layout Styles
 ================================ */
-.main-header {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #121012;
-    position: fixed;
-    top: 0;
-    width: 100%;   
-}
-
-.scrolling-bg {
-    min-height: 50%;
-    
-}
-
-.bg-color-1
+#ulItemsDesktop, #ulItemsMobile
 {
-    background-color: #121012;
-    -webkit-box-shadow: 0px -1px 25px 6px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px -1px 25px 6px rgba(0,0,0,0.75);
-    box-shadow: 0px -1px 25px 6px rgba(0,0,0,0.75);
-}
-    .BG {
-        min-height: 100%;
-        background-image: url("BG.jpg");
-        background-position: center center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
-    
-        
-        ul{
             text-align: center;
             font-size: 0.8em;
         li{
@@ -87,40 +65,111 @@ body {
             
             }
         }
+li{
                 a{
             text-decoration: none;
             color:#e2e2e2;
         padding-left: 50px;
         padding-right: 50px;
-        padding-bottom: 10px;
-        padding-top: 10px;
+        padding-bottom: 23px;
+        padding-top: 27px;
+        border-radius: 15px;
             &:hover{
-                background-color: #b15932;
-                color:#121012;
-                -webkit-transition: all 0.3s ease-in-out;
-                -moz-transition: all 0.3s ease-in-out;
-                -o-transition: all 0.3s ease-in-out;
-                transition: all 0.3s ease-in-out;
+                background-color: #c68f45;
+                color: #111011;
+                -webkit-transition: all 0.5s ease-in-out;
+                -moz-transition: all 0.5s ease-in-out;
+                -o-transition: all 0.5s ease-in-out;
+                transition: all 0.5s ease-in-out;
             }
                 }
+}
+ .main-header {
+            width: 100%;
+            padding-top: 40px;
+            padding-bottom: 10px;
+            background-image: url(NavbarBG.png);
+            top: 0;
+            background-position: center;
+            position: fixed;
+            height: 100%;
+            max-height: 155px;
+            background-repeat: no-repeat;
+            background-size: contain;
+
+        }
+
+
+.scrolling-bg {
+    min-height: 50%;
+    
+}
+
+.bg-color-1
+{
+    background-color: #111011;
+    -webkit-box-shadow: 0px -1px 25px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 25px 6px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 25px 6px rgba(0,0,0,0.75);
+}
+    .BG
+{
+       
+        min-height: 100%;
+        background-image: url("FirstPageBG.jpg");
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
         
         .Front-Text{
             
             text-align: center;
             padding-top: 250px;  
         }
-    }
+    
+}
+.BG1
+{
+    background-image: url("SecondPageBG.jpg");
+}
+.BG2
+{
+    background-image: url("ThirdPageBG.jpg");
+}
+.BG3
+{
+    background-image: url("FourthPageBG.jpg");
+}
     .Aboutpage {
         background-size: cover;
         color: #e2e2e2;
         text-align: center;
         font-size: 20px;
         
+        #legendID
+        {
+            padding-top: 20px;
+        }
+        
+        h1
+        {
+        background-color: #daa04f;
+        background:url(patternOrange.png) repeat;
+        border-bottom-left-radius: 15px; 
+        border-bottom-right-radius: 15px;
+        color: #111011;
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+        }
+        
         h2, p{
             text-align: left;
         }
         .AText{
-            padding-top: 80px;
+            padding-top: 90px;
         }    
     }
         .Projectspage {
@@ -129,27 +178,87 @@ body {
         text-align: center;
         font-size: 20px;
         
+        h1
+        {
+        background-color: #daa04f;
+        background:url(patternOrange.png) repeat;
+        border-bottom-left-radius: 15px; 
+        border-bottom-right-radius: 15px;
+        color: #111011;
+        text-align: center;
+        max-width: 600px;
+            margin: 0 auto;
+        }
+            
         .PText{
-            padding-top: 80px;
+            padding-top: 70px;
+            padding-bottom: 20px;
+            img {
+                width: 50%;
+                border-radius: 20px;
+                -webkit-transition: all 0.5s ease-in-out;
+                -moz-transition: all 0.5s ease-in-out;
+                -o-transition: all 0.5s ease-in-out;
+                transition: all 0.5s ease-in-out;
+            }
+            
+            img:hover
+            {
+                border-radius: 100px;
+                -webkit-transition: all 0.5s ease-in-out;
+                -moz-transition: all 0.5s ease-in-out;
+                -o-transition: all 0.5s ease-in-out;
+                transition: all 0.5s ease-in-out;
+            }
+                
         }
         }
 
 .Skillspage {
-        background-color: #121012;
+        background-color: #111011;
         background-size: cover;
         color: #e2e2e2;
         text-align: center;
     font-size: 20px;
+    
+        h1
+        {
+        background-color: #daa04f;
+        background:url(patternOrange.png) repeat;
+        border-bottom-left-radius: 15px; 
+        border-bottom-right-radius: 15px;
+        color: #111011;
+        text-align: center;
+        max-width: 600px;
+            margin: 0 auto;
+        }
+    
     .SText{
         padding-top: 70px;
     }
     img{
-        width: 50%;
+        width: 70%;
     }
 }
 
 
 @media (min-width: 769px) {
+    
+    .Skillspage
+    {
+    max-height: 120px;
+    }
+    
+    #ulItemsDesktop
+    {
+        padding-top: 5px;
+    }
+    
+    #ulItemsMobile
+    {
+        padding-top: 10px;
+    }
+
         .hidden-desktop{
         display:none;
         }
@@ -162,11 +271,31 @@ body {
 
 }
 @media (max-width: 769px) {
+        
+         .main-header {
+            width: 100%;
+            background-color: #111011; 
+            top: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-image: none;
+            background-position: center;
+            position: fixed;
+            height: 40px;
+            background-repeat: no-repeat;
+            background-size: contain;
+
+        }
+        #ulItemsMobile
+    {
+        
+    }
         .hidden-mobile{
         display:none;
         }
     .Skillspage
     {
+
         font-size: 12px;
             .SText{
         padding-top: 35px;
@@ -178,9 +307,6 @@ body {
     .Aboutpage
     {
         font-size: 12px;
-                .AText{
-            padding-top: 40px;
-        }
     }
     body{
         font-size: 26px;
@@ -193,12 +319,10 @@ body {
             padding-top: 205px;  
         }
                 a{
-            text-decoration: none;
-            color:#e2e2e2;
         padding-left: 15px;
         padding-right: 15px;
-        padding-bottom: 10px;
-        padding-top: 10px;
+        padding-bottom: 9px;
+        padding-top: 17px;
     }
     }
     .bg-color-1
@@ -217,6 +341,7 @@ body {
 }
 @media (max-width: 515px)
 {
+
         .BG{
             .Front-Text{
             font-size: 16px;
@@ -224,10 +349,8 @@ body {
             padding-top: 170px;  
         }
                 a{
-            text-decoration: none;
-            color:#e2e2e2;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 17px;
+        padding-right: 17px;
         padding-bottom: 7px;
         padding-top: 7px;
     }
@@ -240,14 +363,21 @@ body {
 
 @media (min-width: 1000px) and (max-width: 1400px) 
 {
+    #ulItemsDesktop
+    {
+        padding-top: 10px;
+    }
     .Skillspage
     {
+        max-height: 220px;
         font-size: 14px;
+                max-height: 320px;
             .SText{
-        padding-top: 25px;
+        padding-top: 15px;
     }
             img{
-        width: 30%;
+        width: 40%;
+        margin-top: 40px;
     }
     }
     .Aboutpage
@@ -268,12 +398,11 @@ body {
         }
                 a{
                     font-size: 24px;
-            text-decoration: none;
-            color:#e2e2e2;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 19px;
+        padding-top: 23px;
+        margin-top: 20px;
     }
     }
 
@@ -284,5 +413,53 @@ body {
 }
     
 }
+@media (min-width: 768px) and (max-width: 999px) 
+{
+    #ulItemsDesktop
+    {
+        margin-top: 10px;
+    }
+    .Skillspage
+    {
+        font-size: 14px;
+            .SText{
+        padding-top: 35px;
+    }
+            img{
+        width: 40%;
+        margin-top: 40px;
+    }
+    }
+    .Aboutpage
+    {
+        font-size: 14px;
+                .AText{
+        }
+    }
+    body{
+        font-size: 20px;
+    }
+    
+    .BG{
+            .Front-Text{
+            text-align: center;
+            padding-top: 175px;  
+        }
+                a{
+                    font-size: 24px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 12px;
+        padding-top: 20px;
+    }
+    }
 
+.Projectspage{
+    font-size: 14px;
+    img{
+        width: 60%;
+    }
+}
+    
+}
 /*# sourceMappingURL=style.css.map */
